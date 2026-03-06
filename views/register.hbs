@@ -42,6 +42,7 @@
                 name='email'
               />
             </div>
+
             <div class='mb-3'>
               <label for='password'>Password</label>
               <input
@@ -52,10 +53,24 @@
               />
             </div>
 
+            <div class='mb-3'>
+              <label for='passwordConfirm'>Confirm Password</label>
+              <input
+                type='password'
+                class='form-control'
+                id='passwordConfirm'
+                name='passwordConfirm'
+              />
+            </div>
+
             <button type='submit' class='btn btn-primary'>Register User</button>
           </form>
         </div>
       </div>
+
+      {{#if message}}
+        <h4 class='alert alert-danger mt-4'>{{message}}</h4>
+      {{/if}}
     </div>
 
     <script
