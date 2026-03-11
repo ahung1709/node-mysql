@@ -8,6 +8,7 @@ Users can register, log in, and access a protected profile page using JWT authen
 
 ## Table of Contents
 
+- [Screenshots](#screenshots)
 - [Quick Start - Run This Project in 60 Seconds](#quick-start---run-this-project-in-60-seconds)
 - [Tech Stack](#tech-stack)
 - [Features](#features)
@@ -26,6 +27,24 @@ Users can register, log in, and access a protected profile page using JWT authen
 - [Development Checklist](#development-checklist)
 
 ---
+
+## Screenshots
+
+### Home Page
+
+![Home Page](./screenshots/home.png)
+
+### Register Page
+
+## ![Register Page](./screenshots/register.png)
+
+### Login Page
+
+## ![Login Page](./screenshots/login.png)
+
+### Profile Page
+
+## ![Profile Page](./screenshots/profile.png)
 
 ## Quick Start - Run This Project in 60 Seconds
 
